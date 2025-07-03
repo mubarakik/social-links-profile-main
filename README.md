@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://social-links-profile-main-mezoulnrd-mubarakas-projects.vercel.app/](https://social-links-profile-main-mezoulnrd-mubarakas-projects.vercel.app/)
+- Live Site URL: [https://social-links-profile-main-7wujhy29b-mubarakas-projects.vercel.app/](https://social-links-profile-main-7wujhy29b-mubarakas-projects.vercel.app/)
 
 ## My process
 
