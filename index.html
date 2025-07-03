@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
   <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
   <style>
     @font-face {
       font-family: 'Inter';
@@ -20,27 +18,30 @@
     body {
       font-family: 'Inter', sans-serif;
     }
-
-
+    
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body class="bg-[hsl(0,_0%,_8%)] min-h-screen mx-auto flex flex-col items-center justify-center">
+  <main class="bg-[hsl(0,_0%,_12%)] rounded-xl p-6 max-w-xs sm:max-w-sm sm:p-8 flex flex-col items-center gap-5 text-[hsl(0,_0%,_100%)]">
+    <img class="rounded-full w-20" src="./assets/images/avatar-jessica.jpeg" alt="Profile Image of Jessica Randall">
+    <div class="flex flex-col items-center gap-2">
+      <h1 class="text-2xl font-medium text-center">Jessica Randall</h1>
+      <h3 class="text-sm font-semibold text-[hsl(75,_94%,_57%)] text-center">London, United Kingdom</h3>
+    </div>
+    <p class="text-sm text-center font-light px-2">"Front-end developer and avid reader."</p> 
+    <ul class="flex flex-col items-center w-full gap-4">
+      <li class="bg-[hsl(0,_0%,_20%)] hover:bg-lime-300 cursor-pointer hover:text-zinc-900 transition duration-300 ease-in-out w-full text-center text-sm font-semibold py-3 rounded-md">Frontend Mentor</li>
+      <li class="bg-[hsl(0,_0%,_20%)] hover:bg-lime-300 cursor-pointer hover:text-zinc-900 transition duration-300 ease-in-out w-full text-center text-sm font-semibold py-3 rounded-md">LinkedIn</li>
+      <li class="bg-[hsl(0,_0%,_20%)] hover:bg-lime-300 cursor-pointer hover:text-zinc-900 transition duration-300 ease-in-out w-full text-center text-sm font-semibold py-3 rounded-md">Twitter</li>
+      <li class="bg-[hsl(0,_0%,_20%)] hover:bg-lime-300 cursor-pointer hover:text-zinc-900 transition duration-300 ease-in-out w-full text-center text-sm font-semibold py-3 rounded-md">Instagram</li>
+      <li class="bg-[hsl(0,_0%,_20%)] hover:bg-lime-300 cursor-pointer hover:text-zinc-900 transition duration-300 ease-in-out w-full text-center text-sm font-semibold py-3 rounded-md">GitHub</li>
+    </ul>
+  </main>
+  <footer class="text-white text-xs mt-6">
+    Challenge by <a class="text-lime-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-lime-400" href="#">Mubarakik</a>.
+  </footer>
 </body>
 </html>
